@@ -134,3 +134,17 @@ body {
     color: #fff;
     border: 1px solid #fff;
 }
+
+@media screen and (max-width: 769px) {
+    .card-header-btn{
+        top: 5px;
+
+    }
+    .container-video{
+        justify-content: center;
+    }
+
+    .container-video .card-content img{
+        margin: 30px 20px;
+    }
+}
